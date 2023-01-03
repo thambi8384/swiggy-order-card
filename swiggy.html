@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: 0 auto;
+            width:90%;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px;
+            margin-top:120px;
+        }
+        .col{
+            width:25%;
+            padding: 12px;
+        }
+        .col-cards{
+            box-shadow: 0 0 10px rgb(245, 245, 245);
+            border:1px solid gray;
+            border-radius: 3px;
+        }
+        img{
+            width: 100%;
+        }
+        h2,p{
+            padding: 6px;
+        }
+        .col-1{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .icon{
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            background-color:green;
+            color: aliceblue;
+        }
+        .icon span{
+            padding-left: 10px;
+        }
+        .addCart{
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #ccc;
+            padding: 20px 0 0;
+        
+        }
+        .cartLabel{
+            font-size: 14px;
+            padding: 4px 0 0;
+            color:blue;
+            font-weight: 600;
+        }
+        .cartInp{
+            border: 1px solid #ccc;
+        }
+        input{
+            width: 20px;
+            
+            text-align:center;
+        }
+        button{
+            border: none;
+            font-size: 12px;
+            background-color: #fff;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+        }
+        .col-cards:hover .addCart{
+            visibility: visible;
+            transition: all 0.5s linear;
+        }
+        .col-cards:hover{
+            border: 1px solid #ccc;
+            box-shadow: 0 0 2px #ccc;
+            padding: 15px;
+        }
+        .col-3{
+            color:blue;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+    <script src="swiggy.js"></script>
+</body>
+</html>
